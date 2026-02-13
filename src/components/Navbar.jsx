@@ -1,5 +1,5 @@
 import React from "react";
-import housing1 from "../assets/housing3.jpg";
+import housing1 from "../assets/housing1.jpg";
 
 function Navbar(){
     return (

@@ -1,5 +1,6 @@
 import React from "react";
 
+import housing2 from "../assets/housing2.jpg";
 function About() {
   return (
     <div>
@@ -17,7 +18,7 @@ function About() {
           </p>
         </div>
         <img
-          src="src/assets/housing2.jpg"
+          src={housing2}
           alt="Shop interior"
           className="rounded shadow-lg w-full h-60 object-cover"
         />
