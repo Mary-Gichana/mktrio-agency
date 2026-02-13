@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
+import housing3 from "../assets/housing3.jpg";
 
 
 function Home() {
@@ -12,8 +13,8 @@ function Home() {
 
       <section className="relative bg-black text-white h-[620px] flex flex-col justify-center items-center">
         <img
-          src="src/assets/housing3.jpg"
-          alt="Electrical hardware background"
+          src={housing3}
+          alt="housing background"
           className="absolute inset-0 w-full h-full object-cover  "
         />
         <div className="relative z-10 text-center px-4">
