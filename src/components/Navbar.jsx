@@ -1,4 +1,5 @@
 import React from "react";
+import housing1 from "../assets/housing3.jpg";
 
 function Navbar(){
     return (
@@ -6,7 +7,7 @@ function Navbar(){
         <nav className="bg-black text-white px-6 py-4 flex justify-between items-center shadow-md">
           <div className="flex items-center space-x-3">
             <img
-              src="src/assets/housing1.jpg"
+              src={housing1}
               alt="housing1image"
               className="h-10 w-10 object-contain"
             />
