@@ -1,5 +1,5 @@
 import React from "react";
-import housing1 from "../assets/housing1.jpg";
+import logo from "../assets/logo.jpeg";
 
 function Navbar(){
     return (
@@ -7,12 +7,12 @@ function Navbar(){
         <nav className="bg-black text-white px-6 py-4 flex justify-between items-center shadow-md">
           <div className="flex items-center space-x-3">
             <img
-              src={housing1}
+              src={logo}
               alt="housing1image"
               className="h-10 w-10 object-contain"
             />
             <span className="font-bold text-xl text-[#d4af37] tracking-wide">
-              mk Trio Agency
+              Trio Agency
             </span>
           </div>
           <div className="space-x-6 text-[#d4af37]">

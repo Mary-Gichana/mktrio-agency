@@ -11,7 +11,7 @@ function Contact() {
         <div className="relative z-10 text-center">
           <p className="text-lg text-[#d4af37] mb-4">Ready to get started?</p>
           <h2 className="text-2xl text-[#d4af37] md:text-3xl font-bold mb-4">
-            Visit mk Trio House Agency Today!
+            Visit Trio House Agency Today!
           </h2>
 
           <div className="mt-8 text-sm text-gray-300 space-y-1">
@@ -29,7 +29,7 @@ function Contact() {
         </div>
 
         <div className="relative z-10 mt-8 text-sm text-gray-400">
-          &copy; 2025 mk Trio Agency in Eldoret. All rights reserved.
+          &copy; 2025 Trio Agency in Eldoret. All rights reserved.
         </div>
       </section>
     </div>

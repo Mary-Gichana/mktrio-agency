@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
-import housingImage from "../assets/housing3.jpg";
+import home from "../assets/home.jpeg";
 
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
 
       <section className="relative bg-black text-white h-[620px] flex flex-col justify-center items-center">
         <img
-          src={housingImage}
+          src={home}
           alt="housing background"
           className="absolute inset-0 w-full h-full object-cover  "
         />

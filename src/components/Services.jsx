@@ -4,24 +4,25 @@ import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
+import threeBrm from "../assets/3brm.jpeg";
+import villa from "../assets/villa.jpeg";
+import office from "../assets/office.jpeg";
 const featuredProperties = [
   {
     id: 1,
-    image:
-      "https://plus.unsplash.com/premium_photo-1689609950112-d66095626efb?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: threeBrm,
     title: "Modern 3 Bedroom Apartment",
   },
   {
     id: 2,
     image:
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=875&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      villa,
     title: "Luxury 4 Bedroom Villa",
   },
   {
     id: 3,
     image:
-      "https://images.unsplash.com/photo-1746021375258-79fa1464ca1f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZXhlY3V0aXZlJTIwb2ZmaWNlJTIwc3BhY2V8ZW58MHx8MHx8fDA%3D",
+      office,
     title: "Executive Office Space",
   },
 ];
@@ -173,7 +174,7 @@ function Services() {
       {/* ================= WHY CHOOSE US ================= */}
       <section className="py-20 px-6 text-center">
         <h2 className="text-3xl font-bold text-[#d4af37] mb-12">
-          Why Choose MKTrio Agency?
+          Why Choose Trio Agency?
         </h2>
 
         <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
